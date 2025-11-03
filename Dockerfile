@@ -14,7 +14,7 @@ LABEL app=bankapp
 # Set working directory
 WORKDIR /src
 
-# Copy source code from local to container
+# Copy source code from local to container ,
 COPY . /src
 
 # Build application and skip test cases
